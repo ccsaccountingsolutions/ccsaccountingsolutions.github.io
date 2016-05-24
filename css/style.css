@@ -79,16 +79,16 @@ img.Display{
 	text-decoration: none;
 	font-size: 18px;
 	margin: 0 10px;
-	color: #777;
+	color: white;
 	font-weight: 900;
 	padding: 7px 14px;
 	border-radius: 4px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > .active > a:hover {
-	color: #eee;
+	color: #339966;
 	border-bottom: 1px solid #822a2a;
-	background-color: #c2f0c2;
+	background-color: #339966;
 }
 .navbar-default .navbar-nav > .active > a {
 	border-bottom: 1px solid #bbb;
@@ -221,7 +221,7 @@ img.Display{
 	border-bottom: 1px dotted;
 }
 #footerwrap span.copyright a:hover {
-	color: #339966;
+	color: #808080;
 	text-decoration: none;
 }
 ul.social-buttons {
@@ -240,7 +240,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 .slider .btn {
 	font-size: 14px;
-	margin: 50px 0;
+	margin: 0px 0;
 	padding: 10px 20px;
 	background-color: #339966;
 	color: #fcf8e3;
