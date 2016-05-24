@@ -24,7 +24,7 @@ h2 {
 	margin: 20px 0;
 }
 p {
-	margin: 0;
+	margin: 26px;
 	color: #000000;
 	font-style: normal;
 }
@@ -92,7 +92,7 @@ img.Display{
 }
 .navbar-default .navbar-nav > .active > a {
 	border-bottom: 1px solid #bbb;
-	background-color: #339966;
+	background-color: #B1B1B1;
 	color:#000000;
 }
 .centered {
@@ -213,11 +213,11 @@ img.Display{
 	border-top: 1px solid #e6e6e6;
 }
 #footerwrap span.copyright {
-	color: #888;
+	color: #3C763D;
 	font-size: 16px;
 }
 #footerwrap span.copyright a {
-	color: #white;
+	color: white;
 	border-bottom: 1px dotted;
 }
 #footerwrap span.copyright a:hover {
@@ -296,7 +296,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 .caption p {
 	color: #444;
-	line-height: 1.5em;
+	line-height: 1em;
 	font-size: 1.3em;
 	text-align: center;
 	margin-top: 20px;
@@ -457,7 +457,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	font-size: 14px;
 	margin: 30px 0;
 	padding: 10px 20px;
-	background-color: #dd4a49;
+	background-color: #339966;
 	color: #fff;
 	border: 0;
 	text-transform: uppercase;
