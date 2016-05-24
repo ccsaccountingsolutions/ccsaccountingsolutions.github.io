@@ -86,8 +86,8 @@ img.Display{
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > .active > a:hover {
-	color: #339966;
-	border-bottom: 1px solid #822a2a;
+	color: white;
+	border-bottom: 1px solid #B1B1B1;
 	background-color: #339966;
 }
 .navbar-default .navbar-nav > .active > a {
@@ -463,7 +463,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	text-transform: uppercase;
 }
 .contact .btn:hover, .contact .btn:focus {
-	background-color: #bf3f3e;
+	background-color: #c2f0c2;
 	outline: 0px;
 }
 .form_details input[type="text"], .form_details textarea {
