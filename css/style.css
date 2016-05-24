@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-right: 0;
 	margin-left: 0;
 	margin-bottom: 20px;
-	color: #666;
+	color: #3C763D;
 	font-weight: bold;
 }
 h2 {
@@ -92,7 +92,7 @@ img.Display{
 }
 .navbar-default .navbar-nav > .active > a {
 	border-bottom: 1px solid #bbb;
-	background-color: #d6f5d6;
+	background-color: #339966;
 	color:#000000;
 }
 .centered {
@@ -100,7 +100,7 @@ img.Display{
 }
 #section_header {
 	text-align: center;
-	background-color: #ebfaeb;
+	background-color: #f2f2f2;
 	padding: 10px 0;
 	margin-bottom: 30px;
 	margin-top: 20px;
@@ -156,8 +156,8 @@ img.Display{
 	font-size: 13px;
 	margin-top: 30px;
 	padding: 8px 16px;
-	background-color: #d6f5d6;
-	color: #555;
+	background-color: #339966;
+	color: #fcf8e3;
 	border: 1px solid #ccc;
 	margin-bottom: 20px;
 }
@@ -207,7 +207,7 @@ img.Display{
 }
 /*till here*/
 #footerwrap {
-	background-color: #c2f0c2;
+	background-color: #000000;
 	padding: 40px 0 30px 0;
 	text-align: center;
 	border-top: 1px solid #e6e6e6;
@@ -217,11 +217,11 @@ img.Display{
 	font-size: 16px;
 }
 #footerwrap span.copyright a {
-	color: #888;
+	color: #white;
 	border-bottom: 1px dotted;
 }
 #footerwrap span.copyright a:hover {
-	color: #dc4a49;
+	color: #339966;
 	text-decoration: none;
 }
 ul.social-buttons {
@@ -242,8 +242,8 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	font-size: 14px;
 	margin: 50px 0;
 	padding: 10px 20px;
-	background-color: #5cd65c;
-	color: #fff;
+	background-color: #339966;
+	color: #fcf8e3;
 	border: 0;
 	text-transform: uppercase;
 }
