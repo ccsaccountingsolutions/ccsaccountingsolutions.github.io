@@ -61,6 +61,7 @@ img.Display{
 	letter-spacing: -1px;
 	padding-top: 0;
 	padding-left: 0;
+	float: initial;
 }
 .navbar-default .navbar-brand .fa {
 	color: #dd4a49;
