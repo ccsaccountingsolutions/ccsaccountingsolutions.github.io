@@ -240,7 +240,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 .slider .btn {
 	font-size: 14px;
-	margin: 0px 0;
+	margin: 25px 0;
 	padding: 10px 20px;
 	background-color: #339966;
 	color: #fcf8e3;
@@ -275,7 +275,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	display: block;
 	height: auto;
 	float: left;
-	width: 100%;
+	width: auto;
 	border: 0;
 }
 .caption {
@@ -397,7 +397,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .caption p {
 	height: 25px;
-	overflow: hidden;
+	overflow: visible;
 	margin: 0.5em 0;
 }
 .caption h3 {
