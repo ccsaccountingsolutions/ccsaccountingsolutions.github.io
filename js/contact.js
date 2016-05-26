@@ -1,21 +1,22 @@
-var $contactForm = $('#contactForm');
-$contactForm.submit(function(e) {
-	e.preventDefault();
-	$.ajax({
-		url: '//formspree.io/sahif.ali@gmail.com',
-		method: 'POST',
-		data: $(this).serialize(),
-		dataType: 'json',
-		beforeSend: function() {
-			$contactForm.append('<div class="alert alert--loading">Sending message…</div>');
-		},
-		success: function(data) {
-			$contactForm.find('.alert--loading').hide();
-			$contactForm.append('<div class="alert alert--success">Message sent!</div>');
-		},
-		error: function(err) {
-			$contactForm.find('.alert--loading').hide();
-			$contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
-		}
-	});
+$("#contact-form").validate({
+  submitHandler: function(form) {
+    $.ajax({
+      url: "//formspree.io/sahif.ali@gmail.com", 
+      method: "POST",
+      data: {
+        name: $(form).find("input[name='name']").val(),
+        _replyto: $(form).find("input[name='_replyto']").val(),
+        subject: $(form).find("input[name='subject']").val(),
+        message: $(form).find("textarea[name='message']").val()
+      },
+      dataType: "json",
+      success: function() {
+        $("#submit-success").fadeIn();
+        $("#contact-form").fadeOut();
+      },
+      error: function() {
+        $("#submit-errors").fadeIn();        
+      }
+    });
+  }
 });
