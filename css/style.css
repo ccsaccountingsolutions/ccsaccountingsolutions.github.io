@@ -508,12 +508,12 @@ ul.callbacks_tabs.callbacks1_tabs {
 	text-transform: uppercase;
 	outline: none;
 	cursor: pointer;
-	background: #d6f5d6;
+	background: #3C763D;
 }
 .form_details input[type="submit"]:hover {
 	text-decoration: none;
 	color: #fff;
-	background: #614084;
+	background: #d6f5d6;
 }
 address {
 	margin-top: 1em;
