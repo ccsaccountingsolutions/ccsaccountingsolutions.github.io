@@ -65,7 +65,7 @@
           <div class="clearfix"> </div>
           <p class="help-block text-danger"></p>
 		<div id="success"></div>
-          <input type="button" class="btn" type="submit">Send Message</button>
+          <input class="btn" type="submit">Send Message</button>
         </div>
       </form>
       
@@ -74,6 +74,7 @@
   </div>
 </div>
 $("#contact-form").validate();
+<script>
 $("#contact-form").validate({
   submitHandler: function(form) {
     $.ajax({
@@ -96,6 +97,7 @@ $("#contact-form").validate({
     });
   }
 });
+</script>
 <div id="submit-success" class="collapse">
   Message received! I'll be in touch.
 </div>
