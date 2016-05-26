@@ -13,7 +13,7 @@ $contactForm.submit(function(e) {
 			$contactForm.find('.alert--loading').hide();
 			
 			$('#success').hide();
-			$contactForm.append('<div class="alert alert--success">Message sent!</div>');
+			$contactForm.append('<div class="alert alert--success"><h4>Message sent! </h4><br><br><br><br><br></div>');
 			
 		},
 		error: function(err) {
