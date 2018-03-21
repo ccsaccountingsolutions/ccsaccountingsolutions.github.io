@@ -2,7 +2,7 @@ var $contactForm = $('#contactForm');
 $contactForm.submit(function(e) {
 	e.preventDefault();
 	$.ajax({
-		url: '//formspree.io/ccsacccountingsolutions@yahoo.co.nz',
+		url: '//formspree.io/info@ccsaccounts.co.nz',
 		method: 'POST',
 		data: $(this).serialize(),
 		dataType: 'json',
